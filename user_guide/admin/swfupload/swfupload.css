@@ -1,0 +1,37 @@
+@charset "utf-8";
+#piclist_imglist{
+	margin:0px;
+	padding:0px;
+}
+#piclist_imglist li{
+	list-style:none;
+	max-height:100px;
+	max-width:100px;
+	padding:0px;
+	float:left;
+	display:table-cell;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: relative;
+	}
+#piclist_imglist li a {
+	position: absolute;
+	background-attachment: scroll;
+	background-image: url(/user_guide/admin/swfupload/close.gif);
+	background-repeat: no-repeat;
+	background-color: #999;
+	filter:Alpha(opacity=90);
+	width: 15px;
+	height: 15px;
+	display:block;
+	background-position: center center;
+	top: 1px;
+}
+.content {
+	float: left;
+	text-align: left;
+	width: 100px;
+}
